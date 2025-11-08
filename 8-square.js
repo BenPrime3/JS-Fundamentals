@@ -4,6 +4,12 @@ const characterToBuild = "X";
 
 const repeat = characterToBuild.repeat(setNumber);
 
-for (let i = 0; i < setNumber; i++){
-  console.log(repeat)
+if (!isNaN(argument)) {
+  console.log("Missing size")
+}
+
+else {
+  for (let i = 0; i < setNumber; i++) {
+    console.log(repeat)
+  }
 }
